@@ -1,0 +1,15 @@
+
+
+:root {
+
+    /*--------- Fonts ----------------*/
+
+    --main-fonts: 'Roboto Condensed', sans-serif;
+    --main-font-size: 16px; /*Дальше считайте размер шрифтов от это цифры с помощью em */
+    --main-font-color: #333;
+
+    /*--------- Fonts ----------------*/
+
+    --main-background-color: white;
+
+}
