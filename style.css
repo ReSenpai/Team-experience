@@ -87,14 +87,33 @@ html {
 /*---------contacts start----------*/
 
 .contacts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding:0.5rem;
     font-family: 'Roboto Condensed', sans-serif;
     height: 100vh;
     background: linear-gradient(to right, #8e9eab, #eef2f3);
 }
-.contacts__item__title{
-    color:;
+.contacts_summary{
+
 }
-.contacts__social-media{}
+.contacts__item{
+    margin-top: 0.5rem;
+    margin-bottom: 0.25rem;
+}
+.contacts__item__title{
+    text-decoration: underline;
+    margin-bottom:0.5rem;
+}
+.contacts__social-media{
+    margin-top: 1rem;
+    text-align: center;
+}
+.contacts__social-media a{
+    margin-right: 1.3rem;
+}
 .contacts__social-media i{
     color:black;
 }
