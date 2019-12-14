@@ -87,9 +87,11 @@ html {
 /*---------contacts start----------*/
 
 .contacts {
+    font-family: 'Roboto Condensed', sans-serif;
     height: 100vh;
     background: linear-gradient(to right, #8e9eab, #eef2f3);
 }
+.contacts__
 .contacts__social-media{
     
 }
